@@ -1,0 +1,76 @@
+body {
+    padding-top: 20px;
+}
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+}
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+#fld_btn {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#fld_btn .btn {
+    margin-left: 10px;
+}
+#find {
+    padding: 6px 24px;
+}
+
+#input {
+    height: 200px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+#save {
+    padding: 6px 24px;
+}
+
+.active{
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    height: 186px;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+}
+
+.textarea {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    height: 186px;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff; 
+}
+.text_highlight {
+    background-color: #d4717e;
+    color: #fff;
+    border-radius: .25rem;
+    transition: 1s linear;
+  }
+  .text_replace {
+    background-color: #fff;
+    color: #495057;
+  }
